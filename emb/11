@@ -1,0 +1,30 @@
+Aim
+To design and implement a temperature control system using IoT.
+Requirements
+• ESP32
+• DHT11/DHT22 Sensor
+• Fan/LED
+• Blynk App
+• WiFi Connection
+Procedure
+Step 1: Circuit Connection
+1. Open Wokwi/Tinkercad or use ESP32 hardware.
+2. Connect DHT sensor to ESP32.
+3. Connect fan/LED to GPIO pin.
+Step 2: Blynk Setup
+1. Install Blynk IoT application.
+2. Create a new template.
+3. Copy the Authentication Token.
+Step 3: Configure Datastream
+1. Create Virtual Pin V0.
+2. Add monitoring widget in dashboard.
+Step 4: Arduino Programming
+1. Open Arduino IDE.
+2. Install DHT and Blynk libraries.
+3. Write and upload the program.
+Step 5: Execution
+1. Start the simulation.
+2. Monitor temperature values.
+3. Observe automatic fan/LED control.
+Result
+Thus, the temperature control system using IoT was implemented successfully.
