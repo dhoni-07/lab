@@ -1,0 +1,49 @@
+Aim
+To capture FTP login traffic using Wireshark and analyze plaintext username and password transmission over
+the network.
+Introduction
+FTP (File Transfer Protocol) is used for transferring files between systems over a network. FTP transmits
+usernames and passwords in plaintext, making it insecure.
+Wireshark is used to capture and analyze FTP packets to observe login credentials and protocol
+communication.
+This experiment demonstrates the importance of secure protocols in cybersecurity.
+Procedure
+Step 1: Install Wireshark
+1. Download and install Wireshark on Windows or Kali Linux.
+2. Launch the Wireshark application.
+Step 2: Start Packet Capture
+1. Select the active network interface:
+• Wi-Fi
+• Ethernet
+2. Double-click the interface to start capturing packets.
+Step 3: Generate FTP Traffic
+Open terminal and connect to an FTP server:
+ftp test.rebex.net
+Login credentials:
+Username: demo
+Password: password
+Step 4: Apply FTP Filter
+In Wireshark filter bar, enter:
+ftp
+Press Enter.
+Step 5: Analyze FTP Packets
+Observe:
+• USER command
+• PASS command
+• Source IP address
+• Destination IP address
+• FTP communication packets
+Implementation
+FTP Command
+ftp test.rebex.net
+Wireshark Filter
+ftp
+Output
+USER demo
+PASS password
+Analysis
+Wireshark successfully captured FTP login traffic and displayed the username and password transmitted in
+plaintext. This shows that FTP is insecure for sensitive communication.
+Result
+Thus, FTP login traffic was captured successfully using Wireshark and plaintext credential transmission was
+analyzed.
