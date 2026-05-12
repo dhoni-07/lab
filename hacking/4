@@ -1,0 +1,41 @@
+Aim
+To perform DNS enumeration using the dig utility in Kali Linux and retrieve A records, MX records, and Name
+Server information of a target domain.
+Introduction
+DNS (Domain Name System) is used to convert domain names into IP addresses. DNS enumeration is the
+process of collecting DNS information about a target domain such as IP addresses, mail servers, and name
+servers.
+The dig (Domain Information Groper) utility in Kali Linux is used to query DNS servers and retrieve domainrelated information for network analysis and security testing.
+Procedure
+Step 1: Install DNS Utilities
+Open Kali Linux terminal and install DNS utilities:
+sudo apt install dnsutils -y
+Step 2: Verify dig Installation
+Check whether dig is installed:
+dig -v
+Step 3: Retrieve A Record
+Use the following command to get the IP address of a domain:
+dig google.com
+Step 4: Retrieve MX Record
+Use the following command to get mail server information:
+dig google.com MX
+Step 5: Retrieve Name Server Information
+Use the following command to get DNS name servers:
+dig google.com NS
+Implementation
+Commands Used
+dig google.com
+dig google.com MX
+dig google.com NS
+Explanation
+• dig → DNS query utility
+• google.com → Target domain
+• MX → Mail exchange records
+• NS → Name server records
+Output
+google.com. IN A 142.250.183.14
+google.com. IN MX 10 smtp.google.com
+google.com. IN NS ns1.google.com
+Result
+Thus, DNS enumeration using the dig utility in Kali Linux was performed successfully and DNS records of the
+target domain were retrieved.
