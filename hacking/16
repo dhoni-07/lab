@@ -1,0 +1,53 @@
+Aim
+To capture and analyze TCP, DNS, and HTTP packets using Wireshark filters and examine protocol headers,
+source IP addresses, destination IP addresses, and port numbers.
+Introduction
+Wireshark is a network packet analyzer used to monitor and inspect network traffic in real time. It helps
+analyze different protocols such as TCP, DNS, and HTTP by capturing packets transmitted over a network.
+Protocol analysis is important in cybersecurity and networking for troubleshooting, monitoring
+communication, and understanding packet flow.
+Procedure
+Step 1: Install Wireshark
+1. Download and install Wireshark on Windows or Kali Linux.
+2. Launch the Wireshark application.
+Step 2: Select Network Interface
+1. Choose the active network interface:
+• Wi-Fi
+• Ethernet
+2. Double-click the interface to start packet capture.
+Step 3: Generate Network Traffic
+Open browser and visit websites such as:
+http://example.com
+Open terminal and run:
+ping google.com
+Step 4: Apply Wireshark Filters
+TCP Filter
+tcp
+DNS Filter
+dns
+HTTP Filter
+http
+Step 5: Analyze Packets
+Observe:
+• Source IP address
+• Destination IP address
+• Port numbers
+• TCP communication
+• DNS query packets
+• HTTP request and response packets
+Implementation
+Commands Used
+ping google.com
+Wireshark Filters
+tcp
+dns
+http
+Output
+TCP Packets Captured
+DNS Query Packets Captured
+HTTP Request and Response Captured
+Analysis
+Wireshark successfully captured TCP, DNS, and HTTP packets. Protocol headers, IP addresses, and port
+numbers were analyzed to understand network communication.
+Result
+Thus, TCP, DNS, and HTTP packets were captured and analyzed successfully using Wireshark.
