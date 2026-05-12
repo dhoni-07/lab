@@ -1,0 +1,112 @@
+Aim
+To study Arduino boards and their applications in embedded systems and IoT.
+Introduction
+Arduino is an open-source microcontroller platform used for embedded systems, automation, robotics, and
+Internet of Things (IoT) applications. Arduino boards are easy to program and interface with sensors, motors, LEDs,
+displays, and communication modules.
+Arduino uses Embedded C/C++ programming through the Arduino IDE. Due to its simple hardware and software
+environment, Arduino is widely used by students, beginners, engineers, and researchers for developing electronic
+projects and automation systems.
+Arduino boards can receive input from sensors, process the data, and control output devices based on the
+program logic.
+Features of Arduino
+• Open-source platform
+• Easy programming using Arduino IDE
+• Supports Embedded C/C++
+• Supports sensor interfacing
+• USB programming support
+• Digital and analog I/O pins
+• Low power consumption
+• Suitable for IoT and automation projects
+Types of Arduino Boards
+Arduino Uno
+Arduino Uno is the most commonly used Arduino board for beginners and embedded projects.
+Specifications
+• Microcontroller: ATmega328P
+• Operating Voltage: 5V
+• Digital I/O Pins: 14
+• Analog Input Pins: 6
+• Clock Speed: 16 MHz
+Arduino Nano
+Arduino Nano is a compact version of Arduino Uno mainly used in small embedded applications.
+Specifications
+• Microcontroller: ATmega328P
+• Operating Voltage: 5V
+• Compact size
+• Breadboard friendly
+• USB support available
+Arduino Mega
+Arduino Mega is used for large projects requiring more pins and memory.
+Specifications
+• Microcontroller: ATmega2560
+• Digital I/O Pins: 54
+• Analog Input Pins: 16
+• Large memory capacity
+• Clock Speed: 16 MHz
+Arduino Leonardo
+Arduino Leonardo contains built-in USB communication support.
+Specifications
+• Microcontroller: ATmega32U4
+• Built-in USB communication
+• 20 digital I/O pins
+• 12 analog input pins
+Arduino LilyPad
+Arduino LilyPad is specially designed for wearable electronics and smart clothing applications.
+Specifications
+• Lightweight and flexible design
+• Sewable pads for stitching
+• Low power consumption
+• Supports wearable sensors
+Components of Arduino Uno
+Microcontroller
+The ATmega328P microcontroller performs all processing operations.
+Digital Pins
+Used for digital input and output operations.
+Analog Pins
+Used to read analog sensor values.
+USB Port
+Used for programming and power supply.
+Power Jack
+Provides external power supply to the board.
+Reset Button
+Used to restart the Arduino board.
+Working Principle
+Arduino boards read data from sensors and process the information using the microcontroller. Based on the
+programmed instructions, Arduino controls output devices such as LEDs, motors, relays, buzzers, and displays.
+For IoT applications, Arduino can communicate with cloud platforms using WiFi or Bluetooth modules.
+Applications of Arduino
+• Home automation systems
+• Robotics and automation
+• Internet of Things (IoT) projects
+• Smart irrigation systems
+• Healthcare monitoring systems
+• Industrial automation
+• Smart city applications
+• Environmental monitoring systems
+• Security and surveillance systems
+• Wearable electronic devices
+• Educational and research projects
+• Sensor interfacing applications
+• Wireless communication systems
+• Smart energy management systems
+• Artificial intelligence and machine learning projects
+Advantages of Arduino
+• Easy to learn and program
+• Low cost
+• Large community support
+• Supports many sensors and modules
+• Compact and portable
+• Ideal for beginners and IoT projects
+Limitations of Arduino
+• Limited processing power
+• Limited memory compared to Raspberry Pi
+• Not suitable for high-end computing applications
+Future Scope
+Arduino is widely used in:
+• Smart cities
+• Robotics
+• Artificial Intelligence
+• IoT systems
+• Automation industries
+• Wearable electronics
+Future Arduino boards may include improved wireless communication and AI support.
