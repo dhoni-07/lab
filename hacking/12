@@ -1,0 +1,41 @@
+Aim
+To gather information about domains and IP addresses using Robtex and analyze ASN details, hosting provider
+information, and reverse DNS records.
+Introduction
+Robtex is an online network intelligence and reconnaissance tool used to collect information about domains,
+IP addresses, DNS records, Autonomous System Numbers (ASN), and hosting providers.
+It is widely used in cybersecurity and digital forensics for network investigation and information gathering.
+Procedure
+Step 1: Open Robtex Website
+Open a web browser and visit:
+Robtex Official Website
+Step 2: Enter Target Domain
+In the search box, enter the target domain:
+www.grace.edu.in
+Step 3: Start Investigation
+Click the search button to begin information gathering.
+Step 4: Analyze Information
+Observe the following details:
+• IP address
+• DNS records
+• ASN details
+• Hosting provider
+• Reverse DNS information
+Implementation
+Target Domain
+www.grace.edu.in
+Information Collected
+• Domain IP address
+• ASN details
+• Hosting provider information
+• Reverse DNS records
+Output
+IP Address : 217.21.90.39
+Hosting Provider: Hostinger
+ASN : AS47583
+Analysis
+Robtex successfully collected publicly available network information about the target domain including
+hosting provider details, ASN information, and DNS records.
+Result
+Thus, information gathering using Robtex was performed successfully and domain-related information was
+analyzed
