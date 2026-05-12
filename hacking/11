@@ -1,0 +1,54 @@
+Aim
+To perform a Maltego investigation and collect publicly available information about a target domain.
+Introduction
+Maltego is an Open-Source Intelligence (OSINT) and link analysis tool used in cybersecurity and digital
+forensics. It helps collect information about domains, IP addresses, DNS records, email addresses, and online
+entities using graphical analysis.
+Maltego uses transforms to gather publicly available information from internet sources and visualize
+relationships between entities.
+Procedure
+Step 1: Install Maltego
+1. Download and install Maltego application on Windows.
+2. Launch the Maltego application.
+Step 2: Login to Maltego
+1. Create a free Maltego account or login using existing account.
+2. Complete the activation/setup process.
+Step 3: Create New Investigation
+1. Open Maltego.
+2. Click New to create a new graph/project.
+Step 4: Add Domain Entity
+1. From the entity palette, drag the Domain entity into the workspace.
+2. Enter the target domain:
+www.grace.edu.in
+Step 5: Run Transforms
+1. Right-click the domain entity.
+2. Select Run Transform.
+3. Run transforms to collect:
+• IP addresses
+• DNS records
+• Name servers
+• Email addresses
+Step 6: Analyze Results
+Observe the graphical relationships between:
+• Domain
+• IP addresses
+• DNS records
+• Name servers
+Implementation
+Target Domain
+www.grace.edu.in
+Information Collected
+• IP Address
+• DNS Records
+• Name Servers
+• Email Information
+Output
+Domain → IP Address
+Domain → DNS Records
+Domain → Name Servers
+Analysis
+Maltego successfully collected publicly available information about the target domain and displayed
+relationships graphically.
+Result
+Thus, the Maltego investigation was performed successfully and publicly available information about the
+target domain was collected.
