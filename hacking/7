@@ -1,0 +1,43 @@
+Aim
+To perform a basic Nmap port scan on a target website and identify open ports and running services.
+Introduction
+Nmap (Network Mapper) is a network scanning and security auditing tool used to discover hosts, open ports,
+and services running on a target system. Port scanning helps identify accessible network services and analyze
+the security status of a target machine.
+Nmap is widely used in cybersecurity, penetration testing, and network administration.
+Procedure
+Step 1: Install Nmap
+Open Kali Linux terminal and install Nmap:
+sudo apt install nmap -y
+Step 2: Verify Installation
+Check whether Nmap is installed successfully:
+nmap --version
+Step 3: Perform Basic Port Scan
+Run the following command to scan the target website:
+nmap www.grace.edu.in
+Step 4: Analyze the Output
+Observe:
+• Open ports
+• Running services
+• Port states
+Implementation
+Command Used
+nmap www.grace.edu.in
+Explanation
+• nmap → Starts the Nmap tool
+• www.grace.edu.in → Target website/domain
+Output
+PORT STATE SERVICE
+21/tcp open ftp
+80/tcp open http
+443/tcp open https
+3306/tcp open mysql
+Analysis
+Port Service
+21 FTP
+80 HTTP
+443 HTTPS
+3306 MySQL
+Result
+Thus, the basic Nmap port scan was performed successfully and open ports with running services were
+identified on the target website.
