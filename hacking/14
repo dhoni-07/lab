@@ -1,0 +1,49 @@
+Aim
+To capture live network packets using Wireshark and analyze ICMP packets generated during ping
+communication.
+Introduction
+Wireshark is a network packet analyzer used to capture and inspect network traffic in real time. It helps
+analyze protocols, packet headers, source IP addresses, destination IP addresses, and communication
+between systems.
+ICMP (Internet Control Message Protocol) is commonly used for network testing through the ping command.
+Wireshark is widely used in cybersecurity, network troubleshooting, and packet analysis.
+Procedure
+Step 1: Install Wireshark
+1. Download and install Wireshark on Windows or Kali Linux.
+2. Launch the Wireshark application.
+Step 2: Select Network Interface
+1. Choose the active network interface:
+• Wi-Fi
+• Ethernet
+• VirtualBox Host-Only Adapter (if using VM)
+2. Double-click the interface to start packet capture.
+Step 3: Generate ICMP Traffic
+Open terminal or command prompt and run:
+ping google.com
+Step 4: Apply ICMP Filter
+In Wireshark filter bar, enter:
+icmp
+Press Enter to display only ICMP packets.
+Step 5: Analyze Packets
+Observe:
+• Source IP address
+• Destination IP address
+• ICMP Echo Request
+• ICMP Echo Reply
+• Packet size and time
+Implementation
+Command Used
+ping google.com
+Wireshark Filter
+icmp
+Output
+ICMP Echo Request
+ICMP Echo Reply
+Source IP Address
+Destination IP Address
+Analysis
+Wireshark successfully captured and filtered ICMP packets generated during ping communication. Packet
+details such as source IP, destination IP, and response packets were analyzed.
+Result
+Thus, live network packets were captured successfully using Wireshark and ICMP packet communication was
+analyzed
