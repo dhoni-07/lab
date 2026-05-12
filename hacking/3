@@ -1,0 +1,37 @@
+Aim
+To perform host discovery in a network using Nmap ping scan and identify active hosts in the subnet range.
+Introduction
+Nmap (Network Mapper) is an open-source network scanning tool used for network discovery and security
+auditing. It helps identify active hosts, open ports, running services, and vulnerabilities in a network.
+A ping scan is used to discover live systems without performing detailed port scanning. It helps network
+administrators and cybersecurity professionals monitor devices connected to the network.
+Procedure
+Step 1: Install Nmap
+Open Kali Linux terminal and install Nmap using:
+sudo apt install nmap -y
+Step 2: Verify Installation
+Check whether Nmap is installed successfully:
+nmap --version
+Step 3: Identify Network Range
+Check the local IP address:
+ip addr
+Step 4: Perform Host Discovery
+Run the Nmap ping scan command:
+nmap -sn 192.168.1.0/24
+Step 5: Analyze Output
+Observe the active hosts displayed in the scan result.
+Implementation
+Command Used
+nmap -sn 192.168.1.0/24
+Explanation
+• nmap → Starts Nmap tool
+• -sn → Ping scan only
+• 192.168.1.0/24 → Target subnet range
+Output
+Nmap scan report for 192.168.1.1
+Host is up
+Nmap scan report for 192.168.1.5
+Host is up
+Result
+Thus, host discovery using Nmap ping scan was performed successfully and active hosts in the network were
+identified.
