@@ -1,0 +1,110 @@
+Aim
+To study Raspberry Pi boards and their applications in embedded systems and IoT.
+Introduction
+Raspberry Pi is a low-cost, credit-card-sized single-board computer developed by the Raspberry Pi Foundation in
+the United Kingdom. It was mainly designed to promote computer science education and programming skills
+among students. Due to its compact size, low power consumption, and powerful processing capability, Raspberry
+Pi is widely used in embedded systems, robotics, automation, artificial intelligence, and Internet of Things (IoT)
+applications.
+Raspberry Pi can run operating systems such as Raspberry Pi OS (Linux-based), Ubuntu, and Windows IoT Core. It
+supports programming languages like Python, C, C++, and Java. The board contains GPIO (General Purpose Input
+Output) pins that help interface sensors, motors, relays, and other electronic devices.
+Today, Raspberry Pi is used in industries, educational institutions, research laboratories, and smart automation
+systems because of its flexibility and easy hardware interfacing.
+Features of Raspberry Pi
+• Small and compact design
+• Low power consumption
+• Built-in WiFi and Bluetooth support
+• HDMI display support
+• USB ports for keyboard and mouse
+• GPIO pins for sensor interfacing
+• Supports Linux operating system
+• Supports Python and Embedded C programming
+• Camera and display interface support
+• Suitable for IoT and AI applications
+Types of Raspberry Pi Boards
+Raspberry Pi 3
+• Quad-core processor
+• 1GB RAM
+• Built-in WiFi and Bluetooth
+• Used for IoT and automation projects
+Raspberry Pi 4
+• Improved processor performance
+• Available with 2GB, 4GB, and 8GB RAM
+• Supports dual display
+• USB 3.0 support
+• Suitable for advanced AI and multimedia applications
+Raspberry Pi Zero
+• Smallest Raspberry Pi board
+• Low power consumption
+• Compact and portable
+• Used in wearable and compact IoT devices
+Raspberry Pi Pico
+• Microcontroller-based board
+• Uses RP2040 chip
+• Supports MicroPython and Embedded C
+• Used in sensor interfacing and embedded applications
+Components of Raspberry Pi
+Processor
+The processor performs all computation and data processing operations.
+RAM
+RAM stores temporary data and helps execute programs efficiently.
+GPIO Pins
+GPIO pins are used for interfacing LEDs, sensors, relays, motors, and other external devices.
+USB Ports
+Used to connect keyboard, mouse, storage devices, and other peripherals.
+HDMI Port
+Used to connect monitors and display devices.
+WiFi and Bluetooth
+Provides wireless communication for IoT applications.
+SD Card Slot
+Stores the operating system and files required for Raspberry Pi operation.
+Working Principle
+Raspberry Pi works as a mini-computer that can read data from sensors, process the data, and control output
+devices. Sensors connected through GPIO pins send signals to the Raspberry Pi. The processor analyzes the input
+and performs actions such as turning ON LEDs, controlling motors, sending data to cloud platforms, or displaying
+information on a monitor.
+For IoT applications, Raspberry Pi connects to the internet through WiFi or Ethernet and transfers data to cloud
+platforms like ThingSpeak, Firebase, or Blynk.
+Applications of Raspberry Pi
+Home Automation
+Used to control lights, fans, and home appliances remotely through mobile applications.
+Smart Surveillance System
+Used with cameras for face recognition, motion detection, and security monitoring.
+Robotics
+Controls robotic movements and sensor operations.
+IoT Projects
+Used for cloud communication and real-time sensor monitoring.
+Weather Monitoring System
+Measures temperature, humidity, and environmental conditions.
+Smart Healthcare System
+Monitors patient health data such as heartbeat and temperature.
+Industrial Automation
+Used for machine monitoring and industrial control systems.
+Artificial Intelligence and Machine Learning
+Used for image processing, object detection, and AI-based applications.
+Advantages of Raspberry Pi
+• Low cost and affordable
+• Easy hardware interfacing
+• Compact and portable
+• Supports multiple programming languages
+• Suitable for educational purposes
+• Supports IoT and AI applications
+• Large community support
+• Energy efficient
+Limitations of Raspberry Pi
+• Lower performance compared to full desktop computers
+• Limited processing capability for high-end applications
+• Requires external storage through SD card
+• GPIO pins support limited current
+Future Scope
+Raspberry Pi is becoming increasingly important in modern technologies such as:
+• Artificial Intelligence
+• Internet of Things
+• Smart Cities
+• Industrial Automation
+• Robotics
+• Healthcare Systems
+• Edge Computing
+Future developments may include more powerful processors, improved AI support, and enhanced wireless
+communication.
