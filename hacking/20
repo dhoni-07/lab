@@ -1,0 +1,25 @@
+Experiment 20: Perform Post-Exploitation Activities Using Meterpreter
+Aim
+To perform post-exploitation activities using Meterpreter and retrieve system information, running processes,
+and network connections.
+Introduction
+Meterpreter is an advanced Metasploit payload used after successful exploitation for system analysis and
+control.
+Procedure
+Step 1: Open Meterpreter Session
+After successful exploitation, Meterpreter session opens automatically.
+Step 2: Retrieve System Information
+sysinfo
+Step 3: View Current User
+getuid
+Step 4: List Running Processes
+ps
+Step 5: View Network Connections
+netstat
+Output
+OS information displayed
+User information displayed
+Processes listed
+Network connections displayed
+Result
+Thus, post-exploitation activities using Meterpreter were performed successfully
