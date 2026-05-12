@@ -1,0 +1,7 @@
+from machine import ADC, Pin
+from time import sleep
+gas = ADC(26)
+while True:
+ value = gas.read_u16()
+ print("Gas Value:", value)
+ sleep(1)
