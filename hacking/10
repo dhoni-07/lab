@@ -1,0 +1,53 @@
+Aim
+To perform recursive metadata extraction using ExifTool and generate a metadata report for all files inside a
+directory.
+Introduction
+Recursive metadata extraction is used to analyze metadata from multiple files inside a directory automatically.
+ExifTool supports recursive scanning to extract metadata from documents, images, and multimedia files.
+This process is useful in cybersecurity and digital forensics for identifying hidden information from multiple
+files efficiently.
+Procedure
+Step 1: Install ExifTool
+Open Kali Linux terminal and install ExifTool:
+sudo apt install libimage-exiftool-perl -y
+Step 2: Verify Installation
+Check whether ExifTool is installed successfully:
+exiftool -ver
+Step 3: Create Working Directory
+Create a directory for testing files:
+mkdir metadata
+Move into the directory:
+cd metadata
+Step 4: Create Sample File
+Create a sample text file:
+echo "Hello World" > sample.txt
+Step 5: Perform Recursive Metadata Extraction
+Run the following command:
+exiftool -r .
+Step 6: Generate Metadata Report
+Save metadata output into a report file:
+exiftool -r . > report.txt
+Step 7: View Report File
+Display the report:
+cat report.txt
+Implementation
+Commands Used
+exiftool -r .
+exiftool -r . > report.txt
+Explanation
+• exiftool → Metadata extraction tool
+• -r → Recursive scan option
+• . → Current directory
+• > → Redirects output to file
+• report.txt → Metadata report file
+Output
+======== ./sample.txt
+File Type : TXT
+File Size : 12 bytes
+Word Count : 2
+Analysis
+The recursive scan extracted metadata from all files inside the directory and stored the information in a report
+file for analysis.
+Result
+Thus, recursive metadata extraction using ExifTool was performed successfully and the metadata report file
+was generated.
